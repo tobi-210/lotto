@@ -31,11 +31,15 @@ int main(int argc, char **argv)
       }
     }
   }
+
+  printf("\n");
+  
   printf("Die sortierten Zahlen sind: ");
   for (int i = 0; i < 10; i++)
   {
     printf("%d ", array[i]);
   }
 
+  printf("\n");
   printf("\n");
 }
