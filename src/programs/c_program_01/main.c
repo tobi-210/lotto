@@ -26,8 +26,6 @@ int main(int argc, char **argv)
 
   printf("\n");
 
-  printf("\n");
-
   printf("𝗣𝗿𝗲𝗶𝘀𝗹𝗶𝘀𝘁𝗲:\n 1 richtige Zahl: 𝟭,𝟱𝟬€\n 2 richtige Zahlen: 𝟯,𝟬𝟬€\n 3 richtige Zahlen: 𝟭𝟬,𝟬𝟬€\n 4 richtige Zahlen: 𝟯𝟬,𝟬𝟬€\n 5 richtige Zahlen: 𝟱𝟬𝟬,𝟬𝟬€\n 6 richtige Zahlen: 𝟭𝟬𝟬𝟬𝟬,𝟬𝟬€\n");
 
   printf("\n");
@@ -104,7 +102,7 @@ int main(int argc, char **argv)
   else if (treffer == 6)
   {
 
-    printf("Du hast 𝟭𝟬𝟬𝟬𝟬,𝟬𝟬€ gewonnen!\n");
+    printf("JACKPOT!! Du hast 𝟭𝟬𝟬𝟬𝟬,𝟬𝟬€ gewonnen!\n");
   }
 
   printf("\n");
