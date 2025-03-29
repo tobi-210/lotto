@@ -34,6 +34,21 @@ int main(int argc, char **argv)
   {
     printf("Deine LOTTO Zahlen [1 bis 45]: ");
     scanf("%d", &deinelottozahlen[i]);
+
+    if (deinelottozahlen[i] < 1 || deinelottozahlen[i] > 45)
+    {
+      printf("Fehler: Die Zahl %d ist ungültig. Bitte gib eine Zahl zwischen 1 und 45 ein.\n", deinelottozahlen[i]);
+      return 1;
+    }
+
+    for (int j = 0; j < i; j++)
+    {
+      if (deinelottozahlen[i] == deinelottozahlen[j])
+      {
+        printf("Fehler: Die Zahl %d wurde bereits eingegeben. Programm wird beendet.\n", deinelottozahlen[i]);
+        return 1;
+      }
+    }
   }
 
   printf("\n");
